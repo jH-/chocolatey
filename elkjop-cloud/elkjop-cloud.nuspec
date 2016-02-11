@@ -11,10 +11,10 @@
     <description>Elkjøp Cloud is an online storage solution for customers of Elkjøp Norway, with automated backups of selected folders.
     </description>
     <projectUrl>http://www.elkjop.no/cms/jotta-cloud/elkjop-cloud</projectUrl>
-    <packageSourceUrl>https://www.jottacloud.com/update/elkjop/release/setup.exe</packageSourceUrl>
+    <packageSourceUrl>https://github.com/jH-/chocolatey/tree/master/elkjop-cloud</packageSourceUrl>
     <tags>elkjop-cloud admin cloud backup</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.elkjop.no/cms/jotta-cloud/elkjop-cloud</licenseUrl>
+    <licenseUrl>https://www.jottacloud.com/terms-and-conditions/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/jH-/chocolatey/master/elkjop-cloud/icons/elkjop-cloud.png</iconUrl>
     <releaseNotes></releaseNotes>
