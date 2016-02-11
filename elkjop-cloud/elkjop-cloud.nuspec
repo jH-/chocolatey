@@ -12,7 +12,7 @@
     </description>
     <projectUrl>http://www.elkjop.no/cms/jotta-cloud/elkjop-cloud</projectUrl>
     <packageSourceUrl>https://github.com/jH-/chocolatey/tree/master/elkjop-cloud</packageSourceUrl>
-    <tags>elkjop-cloud admin cloud backup</tags>
+    <tags>elkjop-cloud admin elkjop cloud backup</tags>
     <copyright></copyright>
     <licenseUrl>https://www.jottacloud.com/terms-and-conditions/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
