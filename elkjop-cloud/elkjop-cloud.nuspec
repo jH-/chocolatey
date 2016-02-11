@@ -4,7 +4,7 @@
   <metadata>
     <id>elkjop-cloud</id>
     <title>Elkjøp Cloud</title>
-    <version>3.1.42.357</version>
+    <version>3.1.45.377</version>
     <authors>Jotta AS / Elkjøp Norge AS</authors>
     <owners>y0k0</owners>
     <summary>Cloud-based backup and storage for customers of Elkjøp</summary>
@@ -16,7 +16,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.elkjop.no/cms/jotta-cloud/elkjop-cloud</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/elkjop-cloud.png</iconUrl>-->
+    <iconUrl>https://cdn.rawgit.com/jH-/chocolatey/master/elkjop-cloud/icons/elkjop-cloud.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
