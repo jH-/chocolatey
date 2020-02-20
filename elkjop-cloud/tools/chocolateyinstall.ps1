@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'elkjop-cloud'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.jottacloud.com/update/elkjop/release/setup.exe'
+$url        = 'https://cloud.elkjop.no/update/elkjop/current/setup.exe'
 $url64      = ''
 
 $packageArgs = @{
