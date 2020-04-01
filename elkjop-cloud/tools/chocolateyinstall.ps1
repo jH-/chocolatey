@@ -1,17 +1,15 @@
-﻿
 $ErrorActionPreference = 'Stop';
 
-
-$packageName= 'elkjop-cloud'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://cloud.elkjop.no/update/elkjop/current/setup.exe'
-$url64      = ''
+$hash		= '65C08A398198978B66E0B40C6298684C5BC38229952ED0839A5D446B6A133613'
 
 $packageArgs = @{
-  packageName   = $packageName
+  packageName   = 'elkjop-cloud'
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = $url
+  url           = 'https://cloud.elkjop.no/update/elkjop/current/setup.exe'
+  checksum      = $hash
+  checksumType  = 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 
@@ -19,20 +17,3 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
